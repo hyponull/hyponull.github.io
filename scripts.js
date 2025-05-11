@@ -59,10 +59,10 @@ function initCounterAnimation() {
     const statsSection = document.createElement('section');
     statsSection.className = 'fadein stats-section';
     statsSection.innerHTML = `
-        <h2>Resultados Comprovados</h2>
+        <h2>Resultados</h2>
         <div class="stats">
             <div class="stat-item">
-                <div class="counter" data-target="87">0</div>
+                <div class="counter" data-target="24">0</div>
                 <p>Clientes satisfeitos</p>
             </div>
             <div class="stat-item">
@@ -70,7 +70,7 @@ function initCounterAnimation() {
                 <p>% média de aumento em vendas</p>
             </div>
             <div class="stat-item">
-                <div class="counter" data-target="750">0</div>
+                <div class="counter" data-target="47">0</div>
                 <p>Relatórios entregues mensalmente</p>
             </div>
         </div>
